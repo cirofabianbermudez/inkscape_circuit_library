@@ -39,7 +39,7 @@ Componentes comúnmente utilizados
 \end{circuitikz}
 
 %%--------------------------------------------------------------------------------------------
-\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}] %european
  \draw
  (0,0) to[V] ++(3,0)
  ;
@@ -157,6 +157,12 @@ Componentes comúnmente utilizados
 ;
 \end{circuitikz}
 
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[european,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[R] ++(3,0)
+ ;
+\end{circuitikz}
 
 \end{multicols}
 %%--------------------------------------------------------------------------------------------
@@ -250,5 +256,7 @@ Componentes comúnmente utilizados
 \begin{circuitikz}[scale=1]\draw
 (5,.5) node [op amp] (opamp) {}
 ;\end{circuitikz}
+
+
 
 \end{document}
