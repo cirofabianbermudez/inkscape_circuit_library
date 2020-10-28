@@ -34,7 +34,7 @@ Este es un ejemplo del resultado final que se puede obtener:
 ![Ejemplo](images/super_mesh.png)
 
 
-La idea general de esta etodología de trabajo es la siguiente:
+La idea general de esta metodología de trabajo es la siguiente:
 * Abrir Inkscape
 * Abrir la carpeta __inkscape_library__
 * Arrastar los compenentes necesarios
