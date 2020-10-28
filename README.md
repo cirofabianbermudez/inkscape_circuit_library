@@ -21,4 +21,10 @@ Es importante saber utilizar lo básico de Inkscape:
 * When scaling objects, scale the stroke width by the same proportion disable
 
 Un tutorial muy bueno y completo para aprender Inkscape es el siguiente
+<<<<<<< HEAD
 [TJ FREE Inkscape Tutorial](https://www.youtube.com/watch?v=8f011wdiW7g&list=PLqazFFzUAPc5lOQwDoZ4Dw2YSXtO7lWNv&ab_channel=TJFREE) 
+=======
+[TJ FREE Inkscape Tutorial](https://www.youtube.com/watch?v=8f011wdiW7g&list=PLqazFFzUAPc5lOQwDoZ4Dw2YSXtO7lWNv&ab_channel=TJFREE)
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+>>>>>>> 241ca4ba38d02f5d2276915c56ee57ae39ca5769
