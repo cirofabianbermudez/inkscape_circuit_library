@@ -1,0 +1,254 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Ciro Fabián Bermudez Marquez}
+\title{Libreria de circuitos}
+\usepackage{circuitikz}[american]
+\begin{document}
+
+\begin{multicols}{3}
+[
+\section{Libreria}
+Componentes comúnmente utilizados
+]
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[cV] ++(3,0)
+ ;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[cI] ++(3,0)
+ ;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[I] ++(3,0)
+ ;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[V] ++(3,0)
+ ;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[R] ++(3,0)
+ ;
+\end{circuitikz}
+
+%%----------------------------------------------
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[C] ++(3,0)
+ ;
+\end{circuitikz}
+
+%%----------------------------------------------
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[L] ++(3,0)
+ ;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[D*] ++(3,0)
+ ;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[sV] ++(3,0)
+ ;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[short, o-o,v=$ $,i=$ $] ++(3,0)
+ ;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) node [ground] {}
+ ;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) node [sground] {}
+ ;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[ammeter] ++(3,0)
+ ;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[voltmeter] ++(3,0)
+ ;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node [op amp] (opamp) {}
+;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+ (0,0) to[amp] ++(3,0)
+;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node[npn]{}
+;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node[pnp]{}
+;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+(5,.5)node[nmos]{}
+;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node[pmos]{}
+;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+ (0,0) to[battery] ++(3,0)
+;
+\end{circuitikz}
+
+
+\end{multicols}
+%%--------------------------------------------------------------------------------------------
+%%--------------------------------------------------------------------------------------------
+%%--------------------------------------------------------------------------------------------
+
+\newpage
+\vspace{0.5cm}
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[R] ++(3,0)
+ ;
+\end{circuitikz}
+
+\vspace{0.5cm}
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[C] ++(3,0)
+ ;
+\end{circuitikz}
+
+\vspace{0.5cm}
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[short, o-o,v=$ $,i=$ $] ++(3,0)
+ ;
+\end{circuitikz}
+
+\vspace{0.5cm}
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[R,v=$n$,i=$n$] ++(3,0)
+ ;
+\end{circuitikz}
+
+\vspace{0.5cm}
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) node [ground] {}
+ ;
+\end{circuitikz}
+
+\vspace{0.5cm}
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) node [sground] {}
+ ;
+\end{circuitikz}
+
+\vspace{0.5cm}
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[D*] ++(3,0)
+ ;
+\end{circuitikz}
+
+\vspace{0.5cm}
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[ammeter] ++(3,0)
+ ;
+\end{circuitikz}
+
+\vspace{0.5cm}
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[voltmeter] ++(3,0)
+ ;
+\end{circuitikz}
+
+\vspace{0.5cm}
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[zzD*] ++(3,0)
+ ;
+\end{circuitikz}
+
+\vspace{0.5cm}
+\begin{circuitikz}[american,scale=1, every node/.style={scale=1}]
+ \draw
+ (0,0) to[sV] ++(3,0)
+ ;
+\end{circuitikz}
+
+
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node [op amp] (opamp) {}
+;\end{circuitikz}
+
+
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node [op amp] (opamp) {}
+;\end{circuitikz}
+
+\end{document}
