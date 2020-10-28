@@ -14,10 +14,10 @@ Utilizando Inkscape en combinación con Circuitikz este problema desaparece porq
 y editar los componente como se desee.
 
 Es importante saber utilizar lo básico de Inkscape:
-* Group                              Ctrl + G
-* Ungroup                           Shift + Ctrl + G
-* Object/Align and Distribute       Shift + Ctrl + A
-* Object/Fill and Stroke            Shift + Ctrl + F
+* Group                                         Ctrl + G
+* Ungroup                                     Shift + Ctrl + G
+* Object/Align and Distribute       Shift + Ctrl + A
+* Object/Fill and Stroke                 Shift + Ctrl + F
   * Stroke style/Width: 0.127
 * Enable snapping
 * When scaling objects, scale the stroke width by the same proportion __disable__
