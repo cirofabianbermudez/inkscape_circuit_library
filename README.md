@@ -22,3 +22,5 @@ Es importante saber utilizar lo básico de Inkscape:
 
 Un tutorial muy bueno y completo para aprender Inkscape es el siguiente
 [TJ FREE Inkscape Tutorial](https://www.youtube.com/watch?v=8f011wdiW7g&list=PLqazFFzUAPc5lOQwDoZ4Dw2YSXtO7lWNv&ab_channel=TJFREE)
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
