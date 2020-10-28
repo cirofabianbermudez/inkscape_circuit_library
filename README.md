@@ -20,8 +20,7 @@ Es importante saber utilizar lo básico de Inkscape:
 * Enable snapping
 * When scaling objects, scale the stroke width by the same proportion disable
 
-Un tutorial muy bueno y completo para aprender Inkscape es el siguiente
+Un tutorial muy bueno y completo para aprender Inkscape es el siguiente:
+[TJ FREE Inkscape Tutorial](https://www.youtube.com/watch?v=8f011wdiW7g&list=PLqazFFzUAPc5lOQwDoZ4Dw2YSXtO7lWNv&ab_channel=TJFREE)
 
-[TJ FREE Inkscape Tutorial](https://www.youtube.com/watch?v=8f011wdiW7g&list=PLqazFFzUAPc5lOQwDoZ4Dw2YSXtO7lWNv&ab_channel=TJFREE) 
-
-![Image of Yaktocat](images/super_mesh.png)
+![Ejemplo](images/super_mesh.png)
