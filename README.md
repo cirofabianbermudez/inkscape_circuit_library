@@ -18,7 +18,7 @@ Es importante saber utilizar lo básico de Inkscape:
 * Ungroup                                     Shift + Ctrl + G
 * Object/Align and Distribute       Shift + Ctrl + A
 * Object/Fill and Stroke                 Shift + Ctrl + F
-  * Stroke style/Width: 0.127
+  * Stroke style/Width: 0.141
 * Enable snapping
 * When scaling objects, scale the stroke width by the same proportion __disable__
 * Extensions/Text/Text Text
