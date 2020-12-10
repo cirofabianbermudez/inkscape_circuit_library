@@ -172,6 +172,14 @@ Componentes comúnmente utilizados
  ;
 \end{circuitikz}
 
+%%-------------------------------------------------------------------------------------------- prueba
+ \begin{circuitikz}[american,]
+\ctikzset{tripoles/mos style/arrows}
+\def\killdepth#1{{\raisebox{0pt}[\height][0pt]{#1}}}
+\draw (0,0) node[nmos](Q1){};
+\draw (Q1.center) node[right]{\killdepth{Q1}};
+\end{circuitikz}
+
 \end{multicols}
 %%--------------------------------------------------------------------------------------------
 %%--------------------------------------------------------------------------------------------
