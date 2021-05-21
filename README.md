@@ -60,6 +60,3 @@ La idea general de esta metodología de trabajo es la siguiente:
   * Conectarlos utilizando la herramienta **Draw Bezier curves and straight lines**
 * Con TexText poner el texto en LaTeX
 
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
