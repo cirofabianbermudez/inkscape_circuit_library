@@ -282,11 +282,116 @@ Componentes comúnmente utilizados
 \end{circuitikz}
 
 
+
+
+
+
+
+
+
+
+
+\newpage
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node [ieeestd and port] (pepe) {}
+;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node [ieeestd nand port] (pepe) {}
+;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node [ieeestd or port] (pepe) {}
+;
+\end{circuitikz}
+
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node [ieeestd nor port] (pepe) {}
+;
+\end{circuitikz}
+
+
 %%--------------------------------------------------------------------------------------------
 \begin{circuitikz}[scale=1]\draw
 (5,.5) node [ieeestd xor port] (pepe) {}
 ;
 \end{circuitikz}
+
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node [ieeestd xnor port] (pepe) {}
+;
+\end{circuitikz}
+
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node [ieeestd buffer port] (pepe) {}
+;
+\end{circuitikz}
+
+
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node [ieeestd not port] (pepe) {}
+;
+\end{circuitikz}
+
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node [ieeestd and port, color=red, number inputs=4, circuitikz/ieeestd ports/height=3] (pepe) {}
+;
+\end{circuitikz}
+
+
+
+
+\newpage
+%%--------------------------------------------------------------------------------------------
+ \tikzset{flipflop AB/.style={flipflop,
+flipflop def={t1=A, t3=B, t6=Q, t4={\ctikztextnot{Q}},
+td=rst, nd=1, c2=1, n2=1, t2={\texttt{CLK}}},
+}}
+
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node[flipflop AB]{}
+;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node[flipflop D]{}
+;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node[ALU]{\rotatebox
+{90}{\small \ttfamily ALU}}
+;
+\end{circuitikz}
+
+%%--------------------------------------------------------------------------------------------
+\tikzset{mux 4by2/.style={muxdemux,
+muxdemux def={Lh=4, NL=2, Rh=3,
+NB=1, w=2, square pins=1}}}
+
+\begin{circuitikz}[scale=1]\draw
+(5,.5) node[mux 4by2]{MUX}
+;
+\end{circuitikz}
+
+
 
 
 
