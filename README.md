@@ -1,39 +1,63 @@
 # inkscape_circuit_library
-Repositorio para hacer circuitos de calidad utilizando Inkscape y Circuitikz
 
-Para poder utilizar la librería se requieren de las siguientes herramientas
-1. [Inkscape 1.0](https://inkscape.org/release/inkscape-1.0/), software de vectores gráficos.
-2. [TexText](https://textext.github.io/textext/), complemento de Inkscape para renderizar LaTeX.
+## Overview
+
+Este repositorio es una alternativa para hacer diagramas esquemáticos de circuitos eléctricos utilizando Inkscape y Circuitikz.
+
+[Inkscape](https://inkscape.org/es/acerca-de/) es un software de vectores gráficos de calidad profesional para Windows, Mac OS X y GNU/Linux. Es usado por diseñadores profesionales y aficionados de todo el mundo para crear una gran variedad de gráficos como ilustraciones, iconos, logos, diagramas, mapas y diseños web. Inkscape es un software libre y de código abierto, que utiliza SVG (Scalable Vector Graphic), el estándar abierto de W3C, como formato nativo.
+
+Circuitikz es un paquete que te permite realizar circuitos de calidad en LaTeX, sin embargo su utilización esta lejos de ser sencilla, tiene una curva de aprendizaje muy grande y se requiere de mucha codificación para poder hacer circuitos sencillos.
+
+Utilizando Inkscape en combinación con Circuitikz se pueden realizar de manera muy sencilla todo tipo de circuitos eléctricos. Las ventajas de combinar estas dos herramientas son las siguientes:
+
+- Se tiene acceso a todos los componentes de Circuitikz.
+- Las conexiones entre componentes se realizan manualmente y sin esfuerzo.
+- Se pueden exportar las imágenes terminadas como `.svg` ,`.eps`, `.png`, `.jpg`, `.pdf` entre otros.
+- El tiempo de diseño es muy rápido.
+
+## Instalación
+
+Para poder utilizar la librería se requieren de las siguientes herramientas:
+1. [TeX Live](http://mirrors.ibiblio.org/CTAN/systems/texlive/Images/), distribución de LaTeX multiplataforma.
+2. [Inkscape 1.3](https://inkscape.org/release/inkscape-1.3/windows/64-bit/msi/?redirected=1), software de vectores gráficos.
+3. [TexText 1.9](https://textext.github.io/textext/), complemento de Inkscape para renderizar LaTeX.
 	- Recomendado instalar [GtkSourceview 3 for Inkscape 1.0 64-bit](https://github.com/textext/gtksourceview-for-inkscape-windows/releases/download/1.0.0/Install-GtkSourceView-3.24-Inkscape-1.0-64bit.exe).
-3. [TeX Live](http://mirrors.ibiblio.org/CTAN/systems/texlive/Images/), distrubución de LaTeX multiplataforma.
 
-Circuitikz es un paquete que te permite realzizar circuitos de calidad en LaTeX, sin embargo su utilización esta lejos de ser sencilla, tiene una curva de aprendizaje grande y se requiere de bastante código para poder hacer circuitos sencillos.
+> **Nota 1:** IInstalar TexText con el archivo `.bat` en Windows.
+Es necesario desactivar las siguiente opciones:
 
-Utilizando Inkscape en combinación con Circuitikz y el complemento TexText se pueden realizar de manera muy sencilla los cualquier tipo de circuito y se reduce tanto el tiempo de creación del gráfico como el manejo de este, ya que después de finalizar el diseño este se puede exportar tanto como **.eps** como **.pdf**, formatos muy amigables para LaTeX.
+- When scaling objects, scale the stroke width by the same proportion.
+- When scaling rectangles, sclae the radii of rounded corners
+- Move gradients (in fill or stroke) along with the objets.
+- Move patterns (in fill or stroke) along with the objets.
+
+## Atajos de Inkscape
 
 Es importante saber utilizar lo básico de Inkscape, aquí hay una lista de los comandos y menús mas importantes:
 
-## Comandos 
 |          Acción      			|        Atajo         	|
 |-------------------------------|-----------------------|
-|Group			 				|`Ctrl + G`      		|
-|Ungroup         				|`Shift + Ctrl + G`   	|
-|Duplicate         				|`Ctrl + D`			   	|
-|Copy         					|`Ctrl + C`			   	|
-|Paste	         				|`Ctrl + V`			   	|
+|Group			 				|`Ctrl + g`      		|
+|Ungroup         				|`Ctrl + Shift +  g`   	|
+|Duplicate         				|`Ctrl + d`			   	|
+|Copy         					|`Ctrl + c`			   	|
+|Paste	         				|`Ctrl + v`			   	|
 |Rotate	90° left   				|`Ctrl + [`			   	|
 |Rotate	90° rigth 				|`Ctrl + ]`			   	|
-|Flip vertically				|`H`			   		|
-|Flip horizontally				|`V`			   		|
+|Flip vertically				|`h`			   		|
+|Flip horizontally				|`v`			   		|
+
+
 > **Note:** En los comandos **Flip** no es necesario apretar `Shift`.
 
 
 ## Menús
 |         Menú      			|        Atajo    	 	|
 |-------------------------------|-----------------------|
-|Object/Align and Distribute 	|`Shift + Ctrl + A`		|
-|Object/Fill and Stroke 	 	|`Shift + Ctrl + F`		|
-|File/Document Properties	 	|`Shift + Ctrl + D`		|
+|Object/Align and Distribute 	|`Ctrl + Shift + a`		|
+|Object/Fill and Stroke 	 	|` Ctrl + Shift + f`		|
+|File/Document Properties	 	|`Shift + Ctrl + d`		|
+|File/Document Properties/Resize to content 	|`Ctrl + Shift + r `	|
 
 ## Configuraciones extra
 
